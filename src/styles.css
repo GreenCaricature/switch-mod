@@ -1,0 +1,114 @@
+/** {
+    font-family: Lucida Grande;
+    font-size: 11px;
+}
+*/
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.group {
+    display: inline-block;
+    float: right;
+}
+
+body {
+    width: 650px;
+    font-family: Lucida Grande;
+}
+
+ul {
+    user-select: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 5px 0;
+}
+
+#new-rule input[type=text],
+.edit-rule input[type=text] {
+    font-size: 13px;
+    width: 260px;
+    background: #ccc30;
+}
+
+.from,
+.to {
+    font-size: 13px;
+    overflow: auto; 
+    white-space: nowrap;
+    width: 260px;
+    display: inline-flex;
+    }
+    
+
+
+.disabled {
+    color: #ccc;
+}
+
+.seperator-active {
+    font-size: 14px;
+    user-select: none;
+    padding-right: 12px;
+    color: green;
+}
+
+.seperator-disabled {
+    font-size: 14px;
+    user-select: none;
+    padding-right: 12px;
+    color: #ccc;
+}
+
+#headings span {
+    font-family: Lucida Grande;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+
+#no-rules {
+    padding: 10px;
+    color: #666;
+}
+
+.switcheroo {
+    color: red;
+}
+
+#removeAllRulesButton {
+    user-select: none;
+    margin: 10px;
+}
+
+#new-rule,
+.edit-rule {
+    margin-left: 3px;
+}
+
+.edit-rule .seperator {
+    user-select: none;
+}
+
+#headings {
+    background: white;
+}
+
+input.ng-scope.ng-pristine.ng-valid {
+    width: 260px;
+}
+
+input[type='checkbox'] {
+    user-select: none;
+}
+
+span.space {
+    user-select: none;
+    height: 10px !important;
+    width:100%;
+}
+
+#inner-editor::shadowroot {
+    width: 260px;
+}
