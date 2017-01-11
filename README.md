@@ -1,8 +1,11 @@
 Switcheroo
 ==========
 
-Update 1.2:
-Added shortcurts: [rule.from] @dev||@qa 
-    example: 
-    [from]:https://tags.tiqcdn.com/utag/account/profile/prod/utag.js [to]:@dev -> https://tags.tiqcdn.com/utag/account/profile/dev/utag.js
-    
+Update 1.1:
+
+Shortcuts:
+
+[rule.from]: https://tags.tiqcdn.com/utag/mason/shoemall/prod/utag.js
+[rule.to]: @dev
+[result]: https://tags.tiqcdn.com/utag/mason/shoemall/dev/utag.js
+![example](./img/example.png);
