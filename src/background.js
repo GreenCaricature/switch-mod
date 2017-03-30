@@ -3,7 +3,6 @@ rulesService = RulesServiceFactory.getRulesService();
 rules = rulesService.get();
 ruleMatcher = new RuleMatcher(rules);
 chrome.webRequest.onBeforeRequest.addListener(function(details) {
-    console.log(details);
     return ruleMatcher.redirectOnMatch(details)
 }, {
     urls: ["<all_urls>"]
