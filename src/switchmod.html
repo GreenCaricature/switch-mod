@@ -1,8 +1,8 @@
 <!doctype html>
-<html ng-app="switcheroo" ng-csp>
+<html ng-app="switchmod" ng-csp>
 
 <head>
-    <title>Switcheroo Redirector</title>
+    <title>Switch Mod</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script type="text/javascript" src="lib/angular.js"></script>
     <script type="text/javascript" src="lib/underscore.js"></script>
@@ -18,9 +18,7 @@
             <span class="seperator">&nbsp;</span>
             <span class="to">To</span>
         </div>
-        <p ng-if="!rules.length" id="no-rules">
-            You have no redirect rules at the moment so why don't you go ahead and <em class="switcheroo">Switcheroo</em> .
-        </p>
+        <!-- <p ng-if="!rules.length" id="no-rules"></p> -->
         <span class="space" style="display: block;"></span>
         <ul id="rules" ng-repeat="rule in rules track by $index">
             <li>
