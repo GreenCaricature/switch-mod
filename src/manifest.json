@@ -1,8 +1,8 @@
 {
-	"name": "Switcheroo Redirector",
-	"version": "1.33",
+	"name": "switch-mod",
+	"version": "1.2",
 	"manifest_version": 2,
-	"description": "Setup custom redirect rules for any http request i.e pages, scripts, images etc. Uses a simple string replace to do this.",
+	"description": "Internal Redirect",
 	"browser_action": {
 		"default_icon": "switch-browser.png",
 		"default_title": "Add switcheroo rules.",
