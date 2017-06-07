@@ -1,5 +1,4 @@
-# switch:
-==========
+# switch-mod:
 
 ## Update 1.1:
 
@@ -11,7 +10,7 @@ in the rule.to section.
 [rule.from]: https://tags.tiqcdn.com/utag/mason/shoemall/prod/utag.js
 [rule.to]: @dev
 [result]: https://tags.tiqcdn.com/utag/mason/shoemall/dev/utag.js
-![example](./img/example.png);
+![example](./img/example.png)
 
 
 ## Update 1.2:
