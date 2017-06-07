@@ -1,4 +1,4 @@
-angular.module("switcheroo").controller("RulesController", ["$scope", "RulesService", function($scope, rulesService) {
+angular.module("switchmod").controller("RulesController", ["$scope", "RulesService", function($scope, rulesService) {
   $scope.rules = chrome.extension.getBackgroundPage().rules;
   if (!$scope.rules) {
     $scope.rules = []
