@@ -1,5 +1,5 @@
 var parseURI = function parse_uri(str) {
-		if (str === '@dev' || str === '@qa' || str === '@prod') return {path:str}
+		if (str === '@dev' || str === 'qa' || str === '@prod') return {path:str}
 		var o = {
 			strictMode: false,
 			key: ["src", "protocol", "auth", "usr_info", "usr", "pass", "host", "port", "relative", "path", "dir", "file", "query", "anchor"],
