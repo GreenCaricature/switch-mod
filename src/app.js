@@ -1,2 +1,1 @@
-angular.module('switchmod', []).
-	factory('RulesService', RulesServiceFactory.getRulesService);
+angular.module("switchmod",[]).factory("RulesService",RulesServiceFactory.getRulesService);
